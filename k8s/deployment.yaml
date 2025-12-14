@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: web
+  name: web-deploy
 spec:
   replicas: 1
   selector:
@@ -21,10 +21,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mobilebankingservice
+  name: web-service
 spec:
   type: LoadBalancer
   selector:
-    app: bank
+    app: web
   ports:
     - port: 80
