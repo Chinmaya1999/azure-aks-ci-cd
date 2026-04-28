@@ -35,7 +35,7 @@ spec:
               topologyKey: kubernetes.io/hostname
       containers:
       - name: web
-        image: my-portfolio:latest
+        image: IMAGE
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
