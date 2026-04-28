@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero-content">
         <div className="hero-text animate-fade-in-up">
           <h1 className="hero-title">
-            Multi-Cloud <span className="gradient-text">Engineer</span>
+            Multi-Cloud <span className="gradient-text">Devops Engineer</span>
           </h1>
           <p className="hero-subtitle">
             Building scalable infrastructure across AWS, Azure, and GCP
