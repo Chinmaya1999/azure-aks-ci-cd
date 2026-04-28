@@ -40,3 +40,4 @@ jobs:
     - name: Deploy
       run: |
         sed "s|IMAGE|$IMAGE|g" k8s/deployment.yaml | kubectl apply -f -
+
